@@ -1,0 +1,18 @@
+[user]
+	name = _michal
+	email = sz-m@users.noreply.github.com
+[color]
+	ui = true
+[push]
+	default = matching
+[alias]
+	co = checkout
+	st = status
+	cm = commit
+	b = branch
+	slog = log --pretty=format:'%h %s [%an]' --graph
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[core]
+	editor = subl
+[merge]
+	tool = diffuse
